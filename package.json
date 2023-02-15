@@ -2,11 +2,15 @@
   "name": "zenji-front",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "dev": "next dev --turbo --show-all",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "gcp-build": "next build"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
